@@ -8,6 +8,7 @@ public class BattleSceneManager : MonoBehaviour
     void Update() {
         if (Input.GetKeyDown(KeyCode.Return)) {
             SceneManager.LoadScene("Title");
+            
         }
     }
 
